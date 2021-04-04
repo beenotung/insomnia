@@ -1,7 +1,7 @@
-| installer | bootstrap time | repo size | packages cache size |
-|---|---|---|---|
-| npm | 316s | 2.7G | 261M |
-| pnpm | 160s | 1.5G | 1020M |
+| installer | bootstrap time | repo size | packages cache size | total size |
+|---|---|---|---|---|
+| npm | 316s | 2.7G | 261M | 2.9G |
+| pnpm | 160s | 1.5G | 1020M | 2.5G |
 
 ## npm install on develop branch
 
