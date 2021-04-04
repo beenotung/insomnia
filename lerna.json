@@ -2,6 +2,7 @@
   "tagVersionPrefix": "lib@",
   "version": "2.2.33",
   "includeMergedTags": true,
+  "npmClient": "pnpm",
   "packages": [
     "packages/*",
     "plugins/*"

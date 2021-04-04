@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint . --ext .js,.json",
     "lint:fix": "npm run lint -- --fix",
-    "bootstrap": "npm install && lerna bootstrap && lerna run --parallel --stream bootstrap",
+    "bootstrap": "pnpm install && lerna bootstrap && lerna run --parallel --stream bootstrap",
     "publish": "lerna publish",
     "clean": "lerna clean --yes && rimraf node_modules",
     "typecheck": "lerna run --parallel --stream typecheck",
